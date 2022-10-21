@@ -133,3 +133,8 @@ $("#random").click(() => {
 $("#reset").click(() => {
   renderCat(defaultDNA);
 });
+
+// create kitty
+$("#create").click(() => {
+  createKitty();
+});
